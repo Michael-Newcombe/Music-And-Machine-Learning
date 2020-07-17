@@ -9,6 +9,8 @@ Handtrack.js and the machine learning software Wekinator to control audio effect
 
 ## Setup
 
+**Prerequisites:** p5.js, handtrack.js, node.js, bridge.js, Wekinator, WekiInputHelper, Ableton Live 10, AbletonOSC
+
 **Step 1:** Clone or download this repo.
 
 **Step 2:** Download and install [node](https://nodejs.org/en/), then clone or download the [P5js-osc](https://github.com/genekogan/p5js-osc) repository. 
@@ -20,14 +22,14 @@ npm install
 node bridge.js
 ```
 
-**Step 4:** Run the ```p5Handtrack``` sketch in Chrome.
+**Step 4:** Run the p5.js code located in the ```p5Handtrack``` directory, information on running p5.js can be found [here](https://p5js.org/get-started/).
 
-**Step 5:** Download and Install the [WekiInputHelper](http://www.wekinator.org/input-helper/). Run the ```WekiInputHelper``` then open the ```myHandtrackHelper.inputproj``` file.
+**Step 5:** Download and Install the [WekiInputHelper](http://www.wekinator.org/input-helper/). Run the ```WekiInputHelper``` then open the ```myHandtrackHelper.inputproj``` located in the ```wekiInputHelper``` directory.
 
-**Step 6:** Download and Install [Wekinator](http://www.wekinator.org/downloads/). Run ```Wekinator``` then open the ```handtrack.wekproj``` file.
+**Step 6:** Download and Install [Wekinator](http://www.wekinator.org/downloads/). Run ```Wekinator``` then open the ```handtrack.wekproj``` file located in the ```Wekinator/handtrack``` directory.
 
 **Step 6:** Download and Install [Ableton Live 10](https://www.ableton.com/en/trial/)
-then open the handtrack ```project.als``` file.
+then open the handtrack ```project.als``` file located in the ```Ableton Live/handtrack project/``` directory.
 
 **Step 7:** Clone the [LiveOSC](https://github.com/ideoforms/LiveOSC) repository into the Ableton Live Scripts folder
 
